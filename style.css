@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(164, 227, 248);
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    background-color: white;
+    height: 90%;
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.leftHeading{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+    float: left;
+
+}
+.deliveryBike{
+margin-top: 10px;
+margin-left: 10px;
+height: 40px;
+width: 30px;
+}
+.rightHeading{
+
+    display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     padding-left: 300px;
+}
+
+.textDecoration{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+.shoppingCart{
+    
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+.signBox{
+    background-color: goldenrod;
+    border-radius: 4px;
+    min-height: 4px;
+    display: flex;
+    align-items: center;
+    min-width: 40px;
+    margin-top: 10px;
+
+}
+
+
+.words {
+    margin-left: 30px;
+    font-size: 3rem;
+}
+
+.description{
+font-weight: 100;
+text-align: left;
+}
+.locationIcon{
+    height: 18px;
+    width: 15px;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+.searchBar{
+    padding-bottom: 60px;
+    display: flex;
+    border: none;
+
+    
+}
+.searchButton{
+
+    background-color: goldenrod;
+    border-radius: 4px;
+    min-height: 4px;
+    min-width: 40px;
+    border: none;
+}
+.deleverymenImg{
+    width: 20px;
+    height: 20px;
+}
+
+.SecondContainer{
+    display: block;
+}
+.deliveryPerson{
+    float: right;
+    height: 400px;
+    width: 300px;
+    margin-right: 40px;
+    margin-top: 20px;
+
+}
